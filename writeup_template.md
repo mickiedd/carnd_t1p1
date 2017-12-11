@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 
 ### Pipline
 
-### 1. grayscale the image
+### 1. grayscale the input image
 
 ### 2. apply Gaussian Blur to the image
 
