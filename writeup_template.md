@@ -12,10 +12,14 @@ At last I max all these lines to the original image, this will output a Lane-ima
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by try to find two lines that has biggest distance on the bottom.
 
-One potential shortcoming would be what would happen when the car try to make a turnning on the road
+First I go throght all the lines Hough found(and remove the one that has too small slope), and find the bottom y, and the top y.
+
+Then I go through all the lines Hough found(and remove the one that has too small slope) again, and find the most appart two lines(lines intersect by the bottom has biggest distance).
+
+One potential shortcoming would be what would happen when the car try to make a turnning on the road.
 
 Another shortcoming could be when sun light is too brighten, the lane line on the road will be very difficult to identify.
 
-A possible improvement would be to imrove the sensitivity of brighten light
+A possible improvement would be to imrove the algorithm's sensitivity for the brighten light.
 
-Another potential improvement could be to adopt to the car turnning circumstances
+Another potential improvement could be make the Hough lines to adopt to the car turnning circumstances.
