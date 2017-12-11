@@ -21,19 +21,19 @@ The goals / steps of this project are the following:
 
 ### Pipline
 
-First grayscale the image
+### 1. grayscale the image
 
-And then apply Gaussian Blur to the image
+### 2. apply Gaussian Blur to the image
 
-And then apply this blur and gray image to  Canny
+### 3. apply this blur and gray image to  Canny
 
-And then define a region of interest for the image
+### 4. define a region of interest for the image
 
-And then mask this image by this region of interest
+### 5. mask this image by this region of interest
 
-And then run Hough one this masked image, this step will return a group of lines found, apply this lines to a blank image
+### 6. run Hough one this masked image, this step will return a group of lines found, apply this lines to a blank image
 
-At last Mix the blank-with-lines-image and the original image together, output a Lane-image
+### 7. Mix the blank-with-lines-image and the original image together, output a Lane-image
 
 ### Reflection
 
