@@ -1,5 +1,3 @@
----
-
 My pipeline consisted of 7 steps. 
 
 First, I converted the images to grayscale, then I apply Gaussian Blur to the gray image, then I apply this blur and gray image to Canny. 
