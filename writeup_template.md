@@ -19,6 +19,22 @@ The goals / steps of this project are the following:
 
 ---
 
+### Pipline
+
+First grayscale the image
+
+And then apply Gaussian Blur to the image
+
+And then apply this blur and gray image to  Canny
+
+And then define a region of interest for the image
+
+And then mask this image by this region of interest
+
+And then run Hough one this masked image, this step will return a group of lines found, apply this lines to a blank image
+
+At last Mix the blank-with-lines-image and the original image together, output a Lane-image
+
 ### Reflection
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
