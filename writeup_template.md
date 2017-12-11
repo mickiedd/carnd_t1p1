@@ -4,7 +4,7 @@ My pipeline consisted of 7 steps.
 
 First, I converted the images to grayscale, then I apply Gaussian Blur to the gray image, then I apply this blur and gray image to Canny. 
 
-At this point I got a edge of this image, then I define a region of interest for this image, to to focus on the very important angle of this image taken by the camera, and then I use this region to mask the image. 
+At this point I got a edge of this image, then I define a region of interest for this image, to focus on the very important angle of this image taken by the camera, and then I use this region to mask the image. 
 
 After doing all these steps, I got a group of lines(endpoints), then I apply these lines to a blank image. 
 
