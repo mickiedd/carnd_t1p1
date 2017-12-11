@@ -4,10 +4,6 @@
 
 ---
 
-### Reflection
-
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
-
 My pipeline consisted of 7 steps. 
 
 First, I converted the images to grayscale, then I apply Gaussian Blur to the gray image, then I apply this blur and gray image to Canny. 
@@ -25,15 +21,9 @@ If you'd like to include images to show how the pipeline works, here is how to i
 ![alt text][image1]
 
 
-### 2. Identify potential shortcomings with your current pipeline
-
-
 One potential shortcoming would be what would happen when the car try to make a turnning on the road
 
 Another shortcoming could be when sun light is too brighten, the lane line on the road will be very difficult to identify.
-
-
-### 3. Suggest possible improvements to your pipeline
 
 A possible improvement would be to imrove the sensitivity of brighten light
 
