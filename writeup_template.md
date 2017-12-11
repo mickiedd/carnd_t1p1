@@ -43,13 +43,13 @@ If you'd like to include images to show how the pipeline works, here is how to i
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming would be what would happen when the car try to make a turnning on the road
 
-Another shortcoming could be ... 
+Another shortcoming could be when sun light is too brighten, the lane line on the road will be very difficult to identify.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to imrove the sensitivity of brighten light
 
-Another potential improvement could be to ...
+Another potential improvement could be to adopt to the car turnning circumstances
