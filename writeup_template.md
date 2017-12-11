@@ -33,7 +33,7 @@ After doing all these steps, I got a group of lines(endpoints), then I apply the
 
 At last I max all these lines to the original image, this will output a Lane-image.
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
+In order to draw a single line on the left and right lanes, I modified the draw_lines() function by try to find two lines that has biggest distance on the bottom.
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
